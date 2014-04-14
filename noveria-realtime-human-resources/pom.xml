@@ -6,7 +6,13 @@
 
     <groupId>noveria-realtime-human-resources</groupId>
     <artifactId>noveria-realtime-human-resources</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>noveria-realtime-human-resources-repository</module>
+        <module>noveria-realtime-human-resources-service</module>
+        <module>noveria-realtime-human-resources-acceptance-test</module>
+    </modules>
 
 </project>
